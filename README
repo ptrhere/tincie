@@ -8,8 +8,9 @@ you will need python-twisted & a patched tincdaemon to run this
   cd tinc
   autoreconf -f -s -i 
   ./configure
-  ln -sf dummy/device.c src/
+  ln -sf dummy/device.c src/   #tinc without tun device - so we can run it without root cred
   make
+  #copy src/tincd to tincie folder
 * start 
   python processmanager.py
 * point yr browser to

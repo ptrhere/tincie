@@ -1,8 +1,0 @@
-# Sample host configuration file
-
-# The real IP address of this tinc host. Can be used by other tinc hosts.
-Address = 62.58.108.215
-
-# Portnumber for incoming connections. Default is 655.
-Port = 1655
-

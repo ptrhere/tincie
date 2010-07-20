@@ -220,7 +220,7 @@ class CreateVPN(Resource):
 
         process = subprocess.Popen(callstring, shell=True, stdout=subprocess.PIPE, stderr=subprocess.STDOUT)
         process.poll()
-        request.write( process.communicate()[0] )
+        #request.write( process.communicate()[0] )
         # it shouldn't return anything if all went well
 
         request.write("created vpn entry point")
