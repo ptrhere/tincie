@@ -2,6 +2,7 @@ THIS CODE IS BIG HACK
 
 you will need python-twisted & a patched tincdaemon to run this 
 * twisted: http://twistedmatrix.com/trac/
+  apt-get install python-twisted
 * get tincvpn from it's git repo
   git clone git://tinc-vpn.org/tinc
   cd tinc
@@ -9,5 +10,7 @@ you will need python-twisted & a patched tincdaemon to run this
   ./configure
   ln -sf dummy/device.c src/
   make
-
-
+* start 
+  python processmanager.py
+* point yr browser to
+  http://localhost:18001/create
