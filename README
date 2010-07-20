@@ -1,0 +1,13 @@
+THIS CODE IS BIG HACK
+
+you will need python-twisted & a patched tincdaemon to run this 
+* twisted: http://twistedmatrix.com/trac/
+* get tincvpn from it's git repo
+  git clone git://tinc-vpn.org/tinc
+  cd tinc
+  autoreconf -f -s -i 
+  ./configure
+  ln -sf dummy/device.c src/
+  make
+
+
